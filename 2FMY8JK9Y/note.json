@@ -1,0 +1,64 @@
+{
+  "paragraphs": [
+    {
+      "text": "%jdbc(hive)\nshow databases;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:58:21 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "database_name\ndefault\ntest\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603364285567_1525390979",
+      "id": "20201022-105805_279570331",
+      "dateCreated": "Oct 22, 2020 10:58:05 AM",
+      "dateStarted": "Oct 22, 2020 10:58:21 AM",
+      "dateFinished": "Oct 22, 2020 10:58:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "admin",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1603364301277_69901215",
+      "id": "20201022-105821_1820835294",
+      "dateCreated": "Oct 22, 2020 10:58:21 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "ThirdNote",
+  "id": "2FMY8JK9Y",
+  "angularObjects": {
+    "2CHS8UYQQ:shared_process": [],
+    "2CK8A9MEG:shared_process": [],
+    "2CKAY1A8Y:shared_process": [],
+    "2CKEKWY8Z:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
