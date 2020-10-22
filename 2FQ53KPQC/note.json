@@ -1,0 +1,244 @@
+{
+  "paragraphs": [
+    {
+      "text": "%jdbc(hive)\nshow databases;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:33:27 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "database_name\ndefault\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362546809_2103417932",
+      "id": "20201022-102906_561830286",
+      "dateCreated": "Oct 22, 2020 10:29:06 AM",
+      "dateStarted": "Oct 22, 2020 10:33:27 AM",
+      "dateFinished": "Oct 22, 2020 10:33:33 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(hive)\ncreate database test;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:34:06 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362807400_1046080338",
+      "id": "20201022-103327_628498282",
+      "dateCreated": "Oct 22, 2020 10:33:27 AM",
+      "dateStarted": "Oct 22, 2020 10:34:06 AM",
+      "dateFinished": "Oct 22, 2020 10:34:07 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(hive)\nshow databases;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:34:24 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "database_name\ndefault\ntest\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362846552_685832774",
+      "id": "20201022-103406_2017226754",
+      "dateCreated": "Oct 22, 2020 10:34:06 AM",
+      "dateStarted": "Oct 22, 2020 10:34:24 AM",
+      "dateFinished": "Oct 22, 2020 10:34:24 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(hive)\nuse test;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:34:47 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362864374_-397220056",
+      "id": "20201022-103424_759314056",
+      "dateCreated": "Oct 22, 2020 10:34:24 AM",
+      "dateStarted": "Oct 22, 2020 10:34:47 AM",
+      "dateFinished": "Oct 22, 2020 10:34:47 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(hive)\nshow tables;",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:38:00 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "tab_name\ninfo\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362887099_1976681182",
+      "id": "20201022-103447_1026822024",
+      "dateCreated": "Oct 22, 2020 10:34:47 AM",
+      "dateStarted": "Oct 22, 2020 10:38:00 AM",
+      "dateFinished": "Oct 22, 2020 10:38:00 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%jdbc(hive)\ncreate table info (Name varchar(20), Age int);",
+      "user": "admin",
+      "dateUpdated": "Oct 22, 2020 10:37:54 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "editOnDblClick": false,
+          "language": "sql"
+        },
+        "editorMode": "ace/mode/sql"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Query executed successfully. Affected rows : -1"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362899312_-1679187543",
+      "id": "20201022-103459_1876163033",
+      "dateCreated": "Oct 22, 2020 10:34:59 AM",
+      "dateStarted": "Oct 22, 2020 10:37:54 AM",
+      "dateFinished": "Oct 22, 2020 10:37:54 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "admin",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1603362975741_-455762662",
+      "id": "20201022-103615_770729398",
+      "dateCreated": "Oct 22, 2020 10:36:15 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "FirstNote",
+  "id": "2FQ53KPQC",
+  "angularObjects": {
+    "2CHS8UYQQ:shared_process": [],
+    "2CK8A9MEG:shared_process": [],
+    "2CKAY1A8Y:shared_process": [],
+    "2CKEKWY8Z:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
